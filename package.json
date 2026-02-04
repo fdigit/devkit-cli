@@ -1,0 +1,43 @@
+{
+  "name": "@mfon/devkit-cli",
+  "version": "1.0.0",
+  "description": "A Node.js developer experience toolkit CLI for scaffolding projects and managing common setup tasks.",
+  "bin": {
+    "devkit": "./bin/devkit.js"
+  },
+  "main": "bin/devkit.js",
+  "type": "commonjs",
+  "scripts": {
+    "lint": "echo \"No linter configured\"",
+    "test": "vitest",
+    "start": "node ./bin/devkit.js"
+  },
+  "keywords": [
+    "cli",
+    "developer-experience",
+    "scaffolding",
+    "devkit"
+  ],
+  "author": "Mfon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fdigit/devkit-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fdigit/devkit-cli/issues"
+  },
+  "homepage": "https://github.com/fdigit/devkit-cli#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
