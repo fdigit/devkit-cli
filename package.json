@@ -9,7 +9,7 @@
   "type": "commonjs",
   "scripts": {
     "lint": "echo \"No linter configured\"",
-    "test": "vitest",
+    "test": "vitest run",
     "start": "node ./bin/devkit.js"
   },
   "keywords": [

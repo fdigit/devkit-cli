@@ -7,6 +7,8 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'node',
+    // Use forks so process.chdir() works (not allowed in thread workers)
+    pool: 'forks',
   },
 });
 
