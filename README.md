@@ -154,35 +154,3 @@ devkit --help
 ```
 
 to see available commands.
-
----
-
-## Putting this repo on GitHub
-
-1. **Create a new repository on GitHub**
-   - Go to [github.com/new](https://github.com/new).
-   - Name it `devkit-cli` (or another name; then update links in this README and in `package.json`).
-   - Choose **Public**, do not add a README (you already have one).
-   - Create the repository.
-
-2. **Initialize git and push** (from the `devkit-cli` folder):
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: devkit-cli"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/devkit-cli.git
-   git push -u origin main
-   ```
-
-   Replace `YOUR_USERNAME` with your GitHub username (e.g. `fdigit`). If you use SSH:   ```bash
-   git remote add origin git@github.com:YOUR_USERNAME/devkit-cli.git
-   ```
-
-3. **Update URLs**  
-   If your GitHub username is not `fdigit`, replace `fdigit` with your username in:
-   - This README (badge, Installation clone URL, Repository links).
-   - `package.json` (`repository`, `bugs`, `homepage`).
-
-After pushing, the **CI** workflow (`.github/workflows/ci.yml`) will run on every push and pull request.
