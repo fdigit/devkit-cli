@@ -176,9 +176,7 @@ to see available commands.
    git push -u origin main
    ```
 
-   Replace `YOUR_USERNAME` with your GitHub username (e.g. `fdigit`). If you use SSH:
-
-   ```bash
+   Replace `YOUR_USERNAME` with your GitHub username (e.g. `fdigit`). If you use SSH:   ```bash
    git remote add origin git@github.com:YOUR_USERNAME/devkit-cli.git
    ```
 
